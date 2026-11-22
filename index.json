@@ -1,0 +1,11 @@
+{
+  "org": "dtolnay",
+  "repo": "async-trait",
+  "versions": [
+    {
+      "commit": "a7e91e98a5d2de2ceae52d9459eed309939a98bf",
+      "tag": "0.1.89",
+      "parsed_at": "2026-11-22T10:47:25.592546+00:00"
+    }
+  ]
+}
