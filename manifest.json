@@ -63,6 +63,121 @@
       ],
       "ast": [
         "aggregate/ast/a7e91e98a5d2de2ceae52d9459eed309939a98bf/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/a7e91e98a5d2de2ceae52d9459eed309939a98bf.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "proc-macro2",
+          "ecosystem": "CARGO",
+          "version": "1.0.74",
+          "githubOrg": "dtolnay",
+          "githubRepo": "proc-macro2",
+          "githubCommit": "6cb41f895657424f8f64eecbd7e8ad392b0b26e0",
+          "githubTag": "1.0.74",
+          "githubUrl": "https://github.com/dtolnay/proc-macro2",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.35",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "b01743f24cb5b19f96a3eac6bce0e7aee10f6199",
+          "githubTag": "1.0.35",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "2.0.46",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubCommit": "1650c861a408dcaaa5d77f07472e22cb5aa2abb2",
+          "githubTag": "2.0.46",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "futures",
+          "ecosystem": "CARGO",
+          "version": "0.3.30",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "de1a0fd64a1bcae9a1534ed4da1699632993cc26",
+          "githubTag": "0.3.30",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rustversion",
+          "ecosystem": "CARGO",
+          "version": "1.0.13",
+          "githubOrg": "dtolnay",
+          "githubRepo": "rustversion",
+          "githubCommit": "01eae109f33b47fc93243db4407b9d4df68abccf",
+          "githubTag": "1.0.13",
+          "githubUrl": "https://github.com/dtolnay/rustversion",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing",
+          "ecosystem": "CARGO",
+          "version": "0.1.40",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubCommit": "15600a3a67c418f53cb80ff21da57d89a5de0486",
+          "githubTag": "tracing-0.1.40",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing-attributes",
+          "ecosystem": "CARGO",
+          "version": "0.1.27",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubCommit": "c24621f22f367a53f1d461c873c5d49a914dc93f",
+          "githubTag": "tracing-0.1.27",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "trybuild",
+          "ecosystem": "CARGO",
+          "version": "1.0.81",
+          "githubOrg": "dtolnay",
+          "githubRepo": "trybuild",
+          "githubCommit": "6ebfd13554caa57f1d6868f09a2d8d79b41baf64",
+          "githubTag": "1.0.81",
+          "githubUrl": "https://github.com/dtolnay/trybuild",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "futures-util",
+          "ecosystem": "CARGO",
+          "version": "0.3.34",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c",
+          "githubTag": "0.3.34",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-util-0.3.34/src/async_await/select_mod.rs"
+        },
+        {
+          "packageName": "tracing-core",
+          "ecosystem": "CARGO",
+          "version": "0.1.36",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubCommit": "5a141ea9c16ccacf411b9b917a07e216ff5c6b4d",
+          "githubTag": "tracing-0.1.36",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-core-0.1.36/src/span.rs"
+        }
       ]
     }
   ],
